@@ -1,0 +1,55 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clr{
+clear: both;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+    float: left;
+    margin-top: 5px;
+}
+.logo img{
+    width: 50%;
+}
+.navbar .list{
+    float: right;
+    margin-top: 5px;
+}
+.list ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+.list ul li {
+    float: left;
+    margin-right: 15px;
+}
+.list ul {
+    list-style-type: none;
+}
+.portfolio .container{
+    text-align:center ;
+}
+.portfolio{
+    text-align: center;
+    
+}
+.portfolio img{
+    display: block;
+    width: 100%;
+}
+.portfolioitem{
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+}
